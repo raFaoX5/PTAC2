@@ -1,0 +1,93 @@
+export const books = [
+  {
+    id: 1,
+    title: "Dom Casmurro",
+    author: "Machado de Assis",
+    genre: "Romance",
+    pages: 256,
+    available: true,
+  },
+  {
+    id: 2,
+    title: "O Cortiço",
+    author: "Aluísio Azevedo",
+    genre: "Romance",
+    pages: 320,
+    available: true,
+  },
+  {
+    id: 3,
+    title: "O Hobbit",
+    author: "J.R.R. Tolkien",
+    genre: "Fantasia",
+    pages: 310,
+    available: true,
+  },
+  {
+    id: 4,
+    title: "1984",
+    author: "George Orwell",
+    genre: "Ficção Científica",
+    pages: 328,
+    available: false,
+  },
+  {
+    id: 5,
+    title: "O Pequeno Príncipe",
+    author: "Antoine de Saint-Exupéry",
+    genre: "Fábula",
+    pages: 96,
+    available: true,
+  },
+  {
+    id: 6,
+    title: "Harry Potter e a Pedra Filosofal",
+    author: "J.K. Rowling",
+    genre: "Fantasia",
+    pages: 309,
+    available: false,
+  },
+  {
+    id: 7,
+    title: "Sherlock Holmes: Um Estudo em Vermelho",
+    author: "Arthur Conan Doyle",
+    genre: "Mistério",
+    pages: 188,
+    available: true,
+  },
+  {
+    id: 8,
+    title: "O Diário de Anne Frank",
+    author: "Anne Frank",
+    genre: "História",
+    pages: 320,
+    available: true,
+  },
+  {
+    id: 9,
+    title: "O Assasinato no Expresso do Oriente",
+    author: "Agatha Christie",
+    genre: "Mistério",
+    pages: 256,
+    available: false,
+  },
+  {
+    id: 10,
+    title: "Cosmos",
+    author: "Carl Sagan",
+    genre: "Ciência",
+    pages: 384,
+    available: true,
+  }
+]
+
+export const genres = [
+    "Todos",
+    "Romance",
+    "Fantasia",
+    "Ficção Científica",
+    "Fábula",
+    "Mistério",
+    "História",
+    "Ciência"
+]
